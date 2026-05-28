@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" height="475" alt="Loan Approval System Banner" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=475&fit=crop" />
+  <img width="1200" height="475" alt="Loan Approval System Banner" src="./assets/.aistudio/image_78dbe85b.png" />
 </div>
 
 # Loan Approval System
@@ -16,9 +16,9 @@ An AI-powered enterprise banking workflow application designed to automate loan 
 
 ## Tech Stack
 
-- **Frontend:** TypeScript, React
-- **Styling:** CSS
-- **Markup:** HTML
+- **Frontend:** TypeScript (98.4%), React
+- **Styling:** CSS (1.3%)
+- **Markup:** HTML (0.3%)
 
 ## Getting Started
 
