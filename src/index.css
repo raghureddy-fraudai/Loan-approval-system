@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Elegant micro-animations for credit dashboard status transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom visual support for clean printing of reports */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  #main-header,
+  #preset-selector-container,
+  #document-upload-manager,
+  #dashboard-tab-bar,
+  #historical-dockets-drawer,
+  #loading-progress-curtain,
+  .no-print {
+    display: none !important;
+  }
+  #underwriter-report-dashboard {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  #active-tab-panel {
+    border: none !important;
+    box-shadow: none !important;
+    display: block !important;
+  }
+  #executive-dossier-tab,
+  #financial-balance-sheet-tab,
+  #risk-registry-tab,
+  #kyc-verification-tab {
+    display: block !important;
+    page-break-after: always;
+  }
+}

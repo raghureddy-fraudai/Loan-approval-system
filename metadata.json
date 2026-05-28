@@ -1,0 +1,6 @@
+{
+  "name": "Loan Risk Assessment System",
+  "description": "Enterprise-grade loan risk assessment dashboard for senior banking officers. Analyzes applicant documents sequentially across profile extraction, financial analysis, risk profiling, missing document validation, and risk-adjusted decision recomendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
