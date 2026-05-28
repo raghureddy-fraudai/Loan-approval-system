@@ -1,20 +1,74 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <img width="1200" height="475" alt="Loan Approval System Banner" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=475&fit=crop" />
 </div>
 
-# Run and deploy your AI Studio app
+# Loan Approval System
 
-This contains everything you need to run your app locally.
+An AI-powered enterprise banking workflow application designed to automate loan evaluation, risk assessment, compliance verification, and approval decisioning using intelligent business rules and workflow automation.
 
-View your app in AI Studio: https://ai.studio/apps/ff1bf1fb-f09d-4d16-b6ae-f9ec0422b572
+## Features
 
-## Run Locally
+- **Automated Loan Evaluation** - Intelligent assessment of loan applications
+- **Risk Assessment** - AI-powered risk evaluation and scoring
+- **Compliance Verification** - Automated regulatory compliance checking
+- **Approval Decisioning** - Smart workflow-based decision making
+- **Business Rules Engine** - Customizable business logic automation
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+- **Frontend:** TypeScript, React
+- **Styling:** CSS
+- **Markup:** HTML
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/raghureddy-fraudai/loan-approval-system.git
+   cd loan-approval-system
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure environment variables:
+   - Create a `.env.local` file in the root directory
+   - Add required configuration variables
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to `http://localhost:3000`
+
+## Project Structure
+
+```
+loan-approval-system/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── styles/
+├── public/
+├── package.json
+└── README.md
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For issues, questions, or contributions, please open an issue or submit a pull request on GitHub.
